@@ -1,4 +1,3 @@
-
     ######
     ######
     #
@@ -41,8 +40,7 @@
         if getting_team_name:
             return 'epsilon'
         else:
-            if len(opponent_history) ==200:
-                print(history)
+           
             
             if len(opponent_history)>20:
                 last_10 = '', opponent_history[-1], opponent_history[-2], opponent_history[-3], opponent_history[-4], opponent_history[-5], opponent_history[-6], opponent_history[-7], opponent_history[-8], opponent_history[-9], opponent_history[-10]
